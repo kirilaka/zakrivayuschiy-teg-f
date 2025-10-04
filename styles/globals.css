@@ -35,12 +35,19 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  background-color: transparent;
+  border: none;
+}
+
+button:focus {
+  outline: none;
 }
 
 ul,
 ol {
   list-style: none;
 }
+
 
 .visually-hidden {
   position: absolute;
