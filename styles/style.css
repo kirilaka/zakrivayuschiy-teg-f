@@ -63,13 +63,10 @@
 }
 
 .card-text { 
-  font-family: Inter;
-  font-weight: 410;
-  font-style: Regular;
+  font-family: var(--Inter), sans-serif;
+  font-weight: var(--fw-text-card);
   font-size: 18px;
-  leading-trim: NONE;
   line-height: 21px;
-  letter-spacing: 0%;
 }
 
 .conteiner-image {
