@@ -28,10 +28,6 @@
     opacity: 0;
   }
 
-  50% { 
-    opacity: 1;
-  }
-
   100% { 
     opacity: 1;
   }
@@ -49,42 +45,41 @@
 
 .sparks { 
   opacity: 0;
-  transition: fill 0.3s linear;
 }
 
 .like-icon:hover .main-body { 
   fill: #000;
-  transition: 0.3s linear 0.05s;
+  transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon:hover .core { 
   fill: #000;
-  transition: 0.3s linear;
+  transition: fill 0.3s linear;
 }
 
 .like-icon:active .main-body { 
   fill: #ff0000;
-  transition: 0.3s linear 0.05s;
+  transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon:active .core { 
   fill: #ff0000;
-  transition: 0.3s linear;
+  transition: fill 0.3s linear;
 }
 
 .like-icon.is-liked .main-body { 
   fill: #ff0000;
-  transition: 0.3s linear 0.05s;
+  transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon.is-liked .core { 
   fill: #ff0000;
-  transition: 0.3s linear;
+  transition: fill 0.3s linear;
 }
 
 .like-icon.is-liked .contour { 
   fill: #ff0000;
-  transition: 0.3s linear 0.06s;
+  transition: fill 0.3s linear 0.06s;
 }
 
 .is-liked .heart {
